@@ -1,0 +1,21 @@
+.visible {
+  display: block;
+}
+
+.header {
+  font-size: 64px;
+  color: red;
+  display: none;
+}
+
+.big-text {
+  font-size: 36px;
+}
+
+h1.big-text {
+  font-size: 64px;
+}
+
+.container .content input {
+  font-size: 100px;
+}
