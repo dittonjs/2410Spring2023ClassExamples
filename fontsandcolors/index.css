@@ -1,0 +1,13 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2 {
+  background-image: linear-gradient(to right, rebeccapurple, pink, rebeccapurple);
+  color: white;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+

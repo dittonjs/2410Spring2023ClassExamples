@@ -55,3 +55,13 @@ const alias = getRandomNumber;
 
 console.log(alias(100))
 
+
+function reduce() {}
+
+
+const sizes = reduce(transcations, (t, acc) => {
+  if (t.amount < 25 ) acc.small ++;
+  else if (t.amount < 75 ) acc.medium ++;
+  else acc.large ++;
+  return acc;
+}, { small: 0, medium: 0, large: 0})
