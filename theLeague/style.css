@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.left-pie {
+  width: 100px;
+  height: 200px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: rgb(181, 109, 109);
+}
+
+.right-pie {
+  width: 100px;
+  height: 200px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: green;
+}
+
+.done {
+  color: rgb(5, 100, 5);
+}
+
