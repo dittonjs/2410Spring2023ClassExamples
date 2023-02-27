@@ -1,0 +1,21 @@
+
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100vh;
+  margin: 0;
+}
+
+.square {
+  --top-offset: 0px;
+  --left-offset: 0px;
+  transform: translate(var(--left-offset), var(--top-offset));
+  background-color: rebeccapurple;
+  width: 150px;
+  height: 150px;
+}
