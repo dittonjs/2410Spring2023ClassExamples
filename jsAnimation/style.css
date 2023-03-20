@@ -1,0 +1,11 @@
+.purple-square {
+  width: 128px;
+  height: 128px;
+  background-color: rebeccapurple;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: lightgray;
+}
