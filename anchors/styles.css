@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  margin-top: 50px;
+  padding: 16px;
+}
