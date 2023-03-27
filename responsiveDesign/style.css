@@ -1,0 +1,51 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #0f2439;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.login-form {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: clamp(280px, 50%, 600px);
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-element input {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+
+/* @media screen and (min-width: 650px) {
+  .login-form {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .login-form {
+    width: 600px;
+  }
+} */
