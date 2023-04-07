@@ -51,11 +51,6 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  transition: all .3s ease;
-}
-
-.open {
-  left: 0px;
 }
 
 .drawer a {
